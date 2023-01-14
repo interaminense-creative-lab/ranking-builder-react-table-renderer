@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.rbr {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.rbr__table {
+  border: 1px solid #e5e5e5;
+  border-spacing: 0;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.rbr__table thead > tr th {
+  border-bottom: 4px solid #efefef;
+  text-transform: uppercase;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.rbr__table thead tr:hover {
+  background-color: #fff;
+}
+
+.rbr__table tr {
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0px 1px 0px 0px #e5e5e5;
+}
+
+.rbr__table tr:hover {
+  background-color: #e5e5e5;
+}
+
+.rbr__table th,
+.rbr__table td {
+  padding: 8px;
+  position: relative;
+}
+
+.rbr__table tbody tr:last-child {
+  box-shadow: none;
+}
+
+.rbr__table tbody tr:first-child td#rank:first-child:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #ffc107;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rbr__table tbody tr:nth-of-type(2) td#rank:first-child:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #c5c5c5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rbr__table tbody tr:nth-of-type(3) td#rank:first-child:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 0px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #b98775;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rbr__table tbody tr td > span {
+  position: relative;
+}
+
+.rbr__header-title {
+  margin: 0;
+}
+
+.rbr__header-description {
+  margin-top: 0.25rem;
+}
+
+.rbr__footer {
+  margin: 0.5rem 0 1rem 0;
+  display: block;
+  text-align: right;
+}

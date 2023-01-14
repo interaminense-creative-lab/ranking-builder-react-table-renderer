@@ -1,3 +1,3 @@
-import { MyComponent } from "./MyComponent";
+import { RankingBuilderRenderer } from "./RankingBuilderRenderer";
 
-export { MyComponent };
+export { RankingBuilderRenderer };
