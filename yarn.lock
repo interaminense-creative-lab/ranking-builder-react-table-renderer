@@ -1593,10 +1593,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-ranking-builder@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/ranking-builder/-/ranking-builder-1.2.0.tgz#6e289ce4f26cca6798a4de5fe9ff0360a5c34ab8"
-  integrity sha512-gt29x1ldCuS1ouXH8+hond052Lk5TnHBXStLM5dLErv5H04ympGSC3nOTaiImozdMX14QDD58SEfPg8fixLzuA==
+ranking-builder@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/ranking-builder/-/ranking-builder-1.2.4.tgz#02ededf038886c7cb1295f334b9abaf9e496b0d2"
+  integrity sha512-Z+ej075dsVzJrJQI3WkigaDeDOe5hT1tOH4E+eYOV81/7b8nCWrJla6bG8JBnZ7v97u44gP1XTsmGkc6XvtLKQ==
   dependencies:
     "@types/uuid" "^9.0.0"
     firebase "^9.15.0"
