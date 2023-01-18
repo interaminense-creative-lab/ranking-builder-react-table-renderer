@@ -1,6 +1,6 @@
 {
   "name": "ranking-builder-react-table-renderer-2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
