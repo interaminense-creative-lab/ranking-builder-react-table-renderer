@@ -139,7 +139,7 @@ export function Table({
 
               return (
                 <td key={value} id={value as string}>
-                  <span>{content}</span>
+                  <span>{content || "-"}</span>
                 </td>
               );
             })}
